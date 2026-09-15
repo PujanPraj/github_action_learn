@@ -8,7 +8,7 @@ env:
 
 jobs:
   test_context_variables:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: "Checking context variable"
         run: |
